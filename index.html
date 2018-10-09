@@ -56,20 +56,22 @@
 
 <!-- Header -->
 <header class="masthead">
+ <video autoplay muted loop id="bayerVid">
+ 	<source src="img/animation/Wall_Animation-2.mp4" type="video/mp4">
+ </video>
   <div class="container">
     <div class="intro-text">
-      <div class="intro-heading text-uppercase">&emsp;</div>
-      <div class="intro-heading text-uppercase">&emsp;</div>
+    <!--<div class="intro-heading text-uppercase">&emsp;</div>-->
     </div>
     <!-- <div class="color-overlay intro-text"></div> -->
     <div class="intro-text" style="padding-bottom: 0;">
-      <div class="intro-heading text-uppercase" style="font-size: 40px;"> <a style="color:white;" href="#welcome"><i class="fas fa-angle-down"></i></a> </div>
+      <div class="intro-heading text-uppercase"> &emsp;<br><a style="color:white;" class="arrow" href="#welcome"><img src="img/animation/white arrow 4.png" width="50px" height="auto" alt=""></a> </div>
     </div>
   </div>
 </header>
 
 <!--Welcome-->
-<section id="welcome" style="padding-top: 200px;" class="scroll-point">
+<section id="welcome" style="padding-top: 100px;" class="scroll-point">
   <div id="scroll-point" class="container scroll-point">
     <div class="row">
       <div class="col-lg-12 text-center">
@@ -78,7 +80,7 @@
       </div>
     </div>
     <div class="row text-left">
-      <div class="col-md-4 portfolio-item"> <img class="img-fluid" style="padding:9px 30px 0 0;" src="img/welcome/EDITED PIC.jpg" width="350px" height="auto" alt="photo_message"> </div>
+      <div class="col-md-4 portfolio-item"> <img class="img-fluid profile-welcome" src="img/welcome/EDITED PIC.jpg" alt="photo_message"> </div>
       <div class="col-md-4">
         <p>Dear Colleagues,</p>
         <p>I am genuinely excited to celebrate an outstanding year of growth as we join together in Cairns for our 2018 Accelerate conference.</p>
@@ -120,7 +122,7 @@
           <div class="portfolio-hover-content"> <i class="fas fa-plus fa-3x"></i> </div>
         </div> --> 
         <img class="img-fluid" src="img/portfolio/perth-thumb.jpg" alt=""> </a>
-        <div class="portfolio-caption text-left">
+        <div class="portfolio-caption text-left" style="padding-bottom: 35px;">
           <h4 class="text-uppercase">Destination</h4>
           <p>Western Australia</p>
         </div>
@@ -135,7 +137,8 @@
           <p>Day to Day Program</p>
         </div>
       </div>
-      <div class="col-md-4 col-sm-6 portfolio-item portfolio-bottom"> <a class="portfolio-link" data-toggle="modal" href="#activities"> 
+      <div class="col-md-4 col-sm-6 portfolio-item portfolio-bottom-3"> 
+       <a class="portfolio-link" data-toggle="modal" href="#activities"> 
         <!-- <div class="portfolio-hover">
           <div class="portfolio-hover-content"> <i class="fas fa-plus fa-3x"></i> </div>
         </div> --> 
@@ -146,7 +149,7 @@
         </div>
       </div>
       <div class="col-md-4 col-sm-6 portfolio-item portfolio-bottom"> </div>
-      <div class="col-md-4 col-sm-6 portfolio-item portfolio-bottom"> <a class="portfolio-link" data-toggle="modal" href="#faq"> 
+      <div class="col-md-4 col-sm-6 portfolio-item portfolio-bottom-3"> <a class="portfolio-link" data-toggle="modal" href="#faq"> 
         <!-- <div class="portfolio-hover">
           <div class="portfolio-hover-content"> <i class="fas fa-plus fa-3x"></i> </div>
         </div> --> 
@@ -173,7 +176,7 @@
         <img class="img-fluid" src="img/portfolio/plane_thumb.jpg" alt=""> </a>
         <div class="portfolio-caption text-left">
           <h4 class="text-uppercase">Travel Info</h4>
-          <!-- <p class="text-muted">dolor sit amet,</p> --> 
+          <p>Important Information</p> 
         </div>
       </div>
       <div class="col-md-4 col-sm-6 portfolio-item portfolio-bottom"> <a class="portfolio-link" data-toggle="modal" href="#restaurant"> 
@@ -183,7 +186,7 @@
         <img class="img-fluid" src="img/portfolio/restaurant_thumb.jpg" alt=""> </a>
         <div class="portfolio-caption text-left">
           <h4 class="text-uppercase">Restaurant Guide</h4>
-          <!-- <p class="text-muted">dolor sit amet,</p> --> 
+          <p>Restaurant Suggestions</p> 
         </div>
       </div>
     </div>
@@ -245,11 +248,11 @@
                     </tr>
                     <tr>
                       <td><strong>AFTERNOON</strong></td>
-                      <td class="text-black-50">BUSINESS SESSIONS</td>
+                      <td class="text-black-50">Opening Plenary and Panel Discussion</td>
                     </tr>
                     <tr>
                       <td><strong>EVENING</strong></td>
-                      <td class="text-black-50">BUSINESS GROUP DINNERS</td>
+                      <td class="text-black-50">Welcome Reception</td>
                     </tr>
                     <tr>
                       <td><strong>OVERNIGHT</strong></td>
@@ -269,8 +272,7 @@
                     </tr>
                     <tr>
                       <td><strong>MORNING</strong></td>
-                      <td class="text-black-50"><p>MEDICINES AUSTRALIA CODE TRAINING OR COMPLIANCE TBC</p>
-                        <p>BUSINESS SESSIONS</p></td>
+                      <td class="text-black-50">Business Unit Plenaries</td>
                     </tr>
                     <tr>
                       <td><strong>LUNCH</strong></td>
@@ -278,11 +280,11 @@
                     </tr>
                     <tr>
                       <td><strong>AFTERNOON</strong></td>
-                      <td class="text-black-50">BUSINESS SESSIONS</td>
+                      <td class="text-black-50">Brand Sessions</td>
                     </tr>
                     <tr>
                       <td><strong>EVENING</strong></td>
-                      <td class="text-black-50">WELCOME DINNER</td>
+                      <td class="text-black-50">Business Group Dinners</td>
                     </tr>
                     <tr>
                       <td><strong>OVERNIGHT</strong></td>
@@ -302,7 +304,7 @@
                     </tr>
                     <tr>
                       <td><strong>MORNING</strong></td>
-                      <td class="text-black-50">BUSINESS SESSIONS</td>
+                      <td class="text-black-50">Brand Sessions</td>
                     </tr>
                     <tr>
                       <td><strong>LUNCH</strong></td>
@@ -334,7 +336,7 @@
                     </tr>
                     <tr>
                       <td><strong>MORNING</strong></td>
-                      <td class="text-black-50">BUSINESS SESSIONS</td>
+                      <td class="text-black-50">Business Unit Sessions</td>
                     </tr>
                     <tr>
                       <td><strong>LUNCH</strong></td>
@@ -342,7 +344,7 @@
                     </tr>
                     <tr>
                       <td><strong>AFTERNOON</strong></td>
-                      <td class="text-black-50">BUSINESS SESSIONS</td>
+                      <td class="text-black-50">Business Unit Sessions</td>
                     </tr>
                     <tr>
                       <td><strong>EVENING</strong></td>
@@ -392,7 +394,8 @@
     </div>
     <div class="row">
       <div class="col-lg-12">
-        <p class="text-white" style="padding-bottom: 15px;" align="center"> Advance 2019 Travel Team <br>
+        <p class="text-white" style="padding-bottom: 15px;" align="center"> Advance 2019 Concierge <br>
+         Erin Vistarini & Emma Creasey<br>
           E: <a href="mailto:advance2019@destination.com.au" style="color:white" target="_blank">advance2019@destination.com.au</a> <br>
           T: 03 8514 6825 </p>
         <p class="text-white" style="padding-bottom: 15px;" align="center"> Florencia Jacovella <br>
@@ -469,7 +472,11 @@
                 <div class="col-lg-6"> <img class="img-fluid d-block mx-auto" src="img/portfolio/Westin lobby.jpg" alt=""> </div>
               </div>
               <br>
-              <button class="btn btn-none btn-xl" data-dismiss="modal" type="button" align="center"> <span style="text-align:center;" aria-hidden="true">X</span> </button>
+              <div class="close-modal-down" style="top: 98%;" data-dismiss="modal">
+        			<div class="lr">
+          			<div class="rl"></div>
+        			</div>
+      		  </div>
             </div>
           </div>
         </div>
@@ -494,20 +501,20 @@
               <!-- Project Details Go Here -->
               <h5 class="text-uppercase" style="padding-bottom: 50px;">Program</h5>
               <br>
-              <img class="img-fluid d-block mx-auto" style="padding-bottom: 200px;" src="img/portfolio/Overview program.png" alt="">
+              <img class="img-fluid d-block mx-auto" style="padding-bottom: 200px;" src="img/portfolio/Detailed program/Overview program table/ProgramOverview.png" alt="">
               <h5 class="text-uppercase">Sunday 13 January</h5>
-              <p class="item-intro" style="padding-bottom: 200px;">Afternoon and evening New Zealand attendees arrive in Perth and transfer to the Hotel.</p>
+              <p class="item-intro" style="padding-bottom: 100px;">Afternoon and evening New Zealand attendees arrive in Perth and transfer to the Hotel.</p>
               <img class="img-fluid d-block mx-auto" style="padding-bottom: 200px;" src="img/portfolio/WA.jpg" alt=""> 
               
               <!-- Program Contents -->
               <div class="row" style="padding-bottom: 200px;">
                 <div class="col-lg-12" style="padding-bottom: 50px;">
                   <h5 class="text-uppercase">Monday 14 January</h5>
-                  <br>
+                  <br> 
                 </div>
                 <div class="col-lg-6"> <img class="img-fluid d-block mx-auto" src="img/portfolio/program-1.jpg" alt=""> </div>
                 <div class="col-lg-1"> </div>
-                <div class="col-lg-5"> <img class="img-fluid d-block mx-auto" src="img/portfolio/Detailed program/Program/Overview program-1.png" alt=""> </div>
+                <div class="col-lg-5"> <img class="img-fluid d-block mx-auto" width="500" src="img/portfolio/Detailed program/Program/program-1-table.png" alt=""> </div>
               </div>
               <div class="row" style="padding-bottom: 200px;">
                 <div class="col-lg-12" style="padding-bottom: 50px;">
@@ -516,7 +523,7 @@
                 </div>
                 <div class="col-lg-6"> <img class="img-fluid d-block mx-auto" src="img/portfolio/program-2.jpg" alt=""> </div>
                 <div class="col-lg-1"> </div>
-                <div class="col-lg-5"> <img class="img-fluid d-block mx-auto" src="img/portfolio/Detailed program/Program/Overview program-2.png" alt=""> </div>
+                <div class="col-lg-5"> <img class="img-fluid d-block mx-auto" width="500" src="img/portfolio/Detailed program/Program/program-2-table.png" alt=""> </div>
               </div>
               <div class="row" style="padding-bottom: 200px;">
                 <div class="col-lg-12" style="padding-bottom: 50px;">
@@ -525,7 +532,7 @@
                 </div>
                 <div class="col-lg-6"> <img class="img-fluid d-block mx-auto" src="img/portfolio/program-3.jpg" alt=""> </div>
                 <div class="col-lg-1"> </div>
-                <div class="col-lg-5"> <img class="img-fluid d-block mx-auto" src="img/portfolio/Detailed program/Program/Overview program-3.png" alt=""> </div>
+                <div class="col-lg-5"> <img class="img-fluid d-block mx-auto" width="500" src="img/portfolio/Detailed program/Program/program3table_2.png" alt=""> </div>
               </div>
               <div class="row" style="padding-bottom: 200px;">
                 <div class="col-lg-12" style="padding-bottom: 50px;">
@@ -534,7 +541,7 @@
                 </div>
                 <div class="col-lg-6"> <img class="img-fluid d-block mx-auto" src="img/portfolio/program-4.jpg" alt=""> </div>
                 <div class="col-lg-1"> </div>
-                <div class="col-lg-5"> <img class="img-fluid d-block mx-auto" src="img/portfolio/Detailed program/Program/Overview program-4.png" alt=""> </div>
+                <div class="col-lg-5"> <img class="img-fluid d-block mx-auto" width="500" src="img/portfolio/Detailed program/Program/program-4-table.png" alt=""> </div>
               </div>
               <div class="row" style="padding-bottom: 200px;">
                 <div class="col-lg-12" style="padding-bottom: 50px;">
@@ -543,11 +550,11 @@
                 </div>
                 <div class="col-lg-6"> <img class="img-fluid d-block mx-auto" src="img/portfolio/program-5.jpg" alt=""> </div>
                 <div class="col-lg-1"> </div>
-                <div class="col-lg-5"> <img class="img-fluid d-block mx-auto" src="img/portfolio/Detailed program/Program/Overview program-5.png" alt=""> </div>
+                <div class="col-lg-5"> <img class="img-fluid d-block mx-auto" width="500" src="img/portfolio/Detailed program/Program/program-5-table.png" alt=""> </div>
               </div>
               
               <!--Social Program-->
-              <div class="row" style="padding-bottom: 200px;">
+              <div class="row" style="padding-bottom: 100px;">
                 <div class="col-lg-12">
                   <h5 class="text-uppercase">Social Program</h5>
                   <br>
@@ -559,9 +566,10 @@
                   <h1 class="text-uppercase "><strong>Mon</strong></h1>
                 </div>
                 <div class="col-lg-7 text-left">
-                  <p>Westin Perth Terrace (ground floor) <br>
+                  <p>Welcome Cocktail Party <br>
+                   Westin Perth Terrace (ground floor) <br>
                     Time: 6.00pm to 9.00pm <br>
-                    Dress Code: Smart Casual (white theme?)</p>
+                    Dress Code: Smart Casual</p>
                 </div>
               </div>
               <div class="row" style="padding-bottom: 200px;">
@@ -588,13 +596,67 @@
                   <h1 class="text-uppercase "><strong>Thur</strong></h1>
                 </div>
                 <div class="col-lg-7 text-left">
-                  <p>Off-site venue <br>
-                    Coach transfers will depart the hotel at 6.45pm sharp <br>
+                  <p>Gala Awards Dinner <br>
+                   Off-site venue <br>
                     Time: 7.00pm to 11.00pm <br>
-                    Dress Code: </p>
+                    Dress Code: Cocktail (no jacket or tie required)</p>
                 </div>
               </div>
-              <button class="btn btn-none btn-xl" data-dismiss="modal" type="button" align="center"> <span style="text-align:center;" aria-hidden="true">X</span> </button>
+              <br>
+              
+              <!-- Health and Wellbeing Activity START-->
+              <div class="row" style="padding-bottom: 100px;">
+                <div class="col-lg-12">
+                  <h5 class="text-uppercase">Health and Wellbeing Activities</h5>
+                  <br>
+                </div>
+              </div>
+              <div class="row" style="padding-bottom: 200px;">
+                <div class="col-lg-6"> <img class="img-fluid d-block mx-auto" src="img/portfolio/thumbnail_resto.jpg" alt=""> </div>
+                <div class="col-lg-6 text-left">
+                  <p class="text-uppercase"><strong>Yoga</strong></p>
+                  <p>Horseshoe Lane, Roe street side, <br>
+                    Yagan Square, Perth<br>
+                    E: info@shyjohn.com.au</p>
+                  <p>Modern dim sum roasting house meets boutique craft beer brewery at Shy John. Savour authentic and fusion dim sum and Cantonese dishes featuring high quality seasonal ingredients.</p>
+                  <p>Distance from Westin Perth:<br>
+                    Walking – 14-minute walk (1.1km)<br>
+                    Driving – 8-minute drive (1.6km)</p>
+                </div>
+              </div>
+                <div class="row" style="padding-bottom: 200px;">
+                <div class="col-lg-6"> <img class="img-fluid d-block mx-auto" src="img/portfolio/thumbnail_resto.jpg" alt=""> </div>
+                <div class="col-lg-6 text-left">
+                  <p class="text-uppercase"><strong>Walking</strong></p>
+                  <p>Horseshoe Lane, Roe street side, <br>
+                    Yagan Square, Perth<br>
+                    E: info@shyjohn.com.au</p>
+                  <p>Modern dim sum roasting house meets boutique craft beer brewery at Shy John. Savour authentic and fusion dim sum and Cantonese dishes featuring high quality seasonal ingredients.</p>
+                  <p>Distance from Westin Perth:<br>
+                    Walking – 14-minute walk (1.1km)<br>
+                    Driving – 8-minute drive (1.6km)</p>
+                </div>
+              </div>
+                <div class="row" style="padding-bottom: 200px;">
+                <div class="col-lg-6"> <img class="img-fluid d-block mx-auto" src="img/portfolio/thumbnail_resto.jpg" alt=""> </div>
+                <div class="col-lg-6 text-left">
+                  <p class="text-uppercase"><strong>Fitness</strong></p>
+                  <p>Horseshoe Lane, Roe street side, <br>
+                    Yagan Square, Perth<br>
+                    E: info@shyjohn.com.au</p>
+                  <p>Modern dim sum roasting house meets boutique craft beer brewery at Shy John. Savour authentic and fusion dim sum and Cantonese dishes featuring high quality seasonal ingredients.</p>
+                  <p>Distance from Westin Perth:<br>
+                    Walking – 14-minute walk (1.1km)<br>
+                    Driving – 8-minute drive (1.6km)</p>
+                </div>
+              </div>
+              <!-- Health and Wellbeing Activity END-->
+              
+               <div class="close-modal-down" data-dismiss="modal">
+        			<div class="lr">
+          			<div class="rl"></div>
+        			</div>
+      		  </div>
             </div>
           </div>
         </div>
@@ -620,11 +682,61 @@
               <h5 class="text-uppercase">Activities</h5>
               <br>
               <img class="img-fluid d-block mx-auto" style="padding-bottom: 100px;" src="img/portfolio/Rottnest-Island-aerial.jpg" alt=""> 
+
+                <!-- OPTIONAL ACTVITIES -->
+              <h5 class="text-uppercase">Optional Activites</h5>
+              <p style="padding-bottom: 200px;">Following the morning conference session on Wednesday 16 January, you have the option to select from the following activities or enjoy the afternoon at your leisure. Kindly note that the Westin Perth is a city hotel so there is limited seating around the pool area if you choose to spend the day relaxing at the hotel.</p>
+              
               <!--Segway START-->
               <h5 class="text-uppercase">Rottnest Island</h5>
               <p class="text-muted">12.00pm – 6.00pm</p>
-              <p style="padding-bottom: 200px;">Coach transfers will depart The Westin Perth at approx. 12noon for B-Shed, Victoria Quay Fremantle Ferry Terminal. Collect snorkel sets (optional) before boarding the Rottnest Express ferry to Rottnest Island (approx. 30mins). Upon arrival at Rottnest Island, disembark and collect hire bikes (optional) from the main jetty. Enjoy free time exploring the beauty of this picturesque island. Ride or walk to one of the 63 beaches and 23 bays located around the island or get in the water with your snorkel and explore Rottnest Island’s underwater playground. During registration you will select one of the following tour options.</p>
+              <p style="padding-bottom: 100px;">Coach transfers will depart The Westin Perth at approx. 12noon for B-Shed, Victoria Quay Fremantle Ferry Terminal. Collect snorkel sets (optional) before boarding the Rottnest Express ferry to Rottnest Island (approx. 30mins). Upon arrival at Rottnest Island, disembark and collect hire bikes (optional) from the main jetty. Enjoy free time exploring the beauty of this picturesque island. Ride or walk to one of the 63 beaches and 23 bays located around the island or get in the water with your snorkel and explore Rottnest Island’s underwater playground. During registration you will select one of the following tour options.</p>
+              <img class="img-fluid d-block mx-auto" style="padding-bottom: 200px;" src="img/portfolio/Rottnest-Island-aerial.jpg" alt="">    
               <!--Segway END--> 
+              
+              <!--Rottnest Island START--> 
+              <!--<h5 class="text-uppercase">Rottnest Island</h5>
+              <p class="text-muted">12.00pm – 6.00pm</p>
+              <img class="img-fluid d-block mx-auto" src="img/portfolio/rot.jpg" alt="">
+              <p style="padding-bottom: 200px;">Coach transfers will depart The Westin Perth at approx. 12noon for B-Shed, Victoria Quay Fremantle Ferry Terminal. Collect snorkel sets (optional) before boarding the Rottnest Express ferry to Rottnest Island (approx. 30mins). Upon arrival at Rottnest Island, disembark and collect hire bikes (optional) from the main jetty. Enjoy free time exploring the beauty of this picturesque island. Ride or walk to one of the 63 beaches and 23 bays located around the island or get in the water with your snorkel and explore Rottnest Island’s underwater playground. During registration you will select one of the following tour options.</p> --> 
+
+              <!-- Tour 1 -->
+              <div class="row" style="padding-bottom: 200px;">
+                <div class="col-lg-6 text-left">
+                  <p class="text-uppercase"><strong>Option #1 – Adventure Tour</strong></p>
+                  <p>60 min Adventure Boat Tour<br>
+                    1.45pm Group 1<br>
+                    3.00pm Group 2</p>
+                  <p>Jump aboard the purpose-built, high-powered vessel for the adventure of a lifetime as the Eco Express takes you for a 60-minute journey to the island's wild side. Explore Rottnest's rugged coastline and witness the beauty of its abundant wildlife up close, including the delightful antics of the New Zealand fur seal colony at Cathedral Rocks. With our knowledgeable crew providing expert commentary along the way, this is the ultimate thrill ride for nature lovers! </p>
+                </div>
+                <div class="col-lg-6"> <img class="img-fluid d-block mx-auto" src="img/portfolio/tour_2.jpg" alt=""> </div>
+              </div>
+              
+              <!-- Tour 2 -->
+              <div class="row" style="padding-bottom: 200px;">
+                <div class="col-lg-6 text-left">
+                  <p class="text-uppercase"><strong>Option #2 – Discover Tour</strong></p>
+                  <p>60 min Discover Coach Tour<br>
+                    1.45pm Group 3<br>
+                    3.00pm Group 4</p>
+                  <p>This 60-minute coach tour takes you to some of Rottnest’s most spectacular locations, where you can experience the island's diverse flora, fauna, history and culture for yourself (with insightful commentary from knowledgeable crew along the way). The Discover Rottnest Coach Tour stops at key vantage points around the island, where passengers can hop off the coach and stretch their legs as they soak up some of Rottnest's world-famous views. Chances are, while you are there, you're going to meet a Quokka or two!</p>
+                </div>
+                 <div class="col-lg-6"> <img class="img-fluid d-block mx-auto" src="img/portfolio/tour_1.jpg" alt=""> </div>
+              </div>
+              
+              <!-- Tour 3 -->
+              <div class="row" style="padding-bottom: 200px;">
+                <div class="col-lg-6 text-left">
+                  <p class="text-uppercase"><strong>Option #3 – Explorer Tour</strong></p>
+                  <p>60 min Sub Sea Explorer Semi-Submersible Vessel<br>
+                    1.45pm Group 5<br>
+                    3.00pm Group 6</p>
+                  <p>Take a journey of a lifetime on the iconic coral viewing vessel, the 'Sub Sea Explorer' and venture beneath the waves of Rottnest Island to discover the amazing story of shipwrecks and the incredibly rich marine life that now inhabit them. Watch from below the waterline to spot as many fish and marine species as you can. You will probably see many species of fish, rays and perhaps spot one or two of the new tropical species that now call Rottnest home.</p>
+                  <p>Following the tours and free time, return your hire bikes and snorkel equipment to the main jetty before boarding the Rottnest Express ferry for our return to the mainland. Upon arrival at B-Shed Victoria Quay Fremantle Ferry Terminal, board coaches back to Westin Perth, arriving around 6.15pm.</p>
+                </div>
+                <div class="col-lg-6"> <img class="img-fluid d-block mx-auto" src="img/portfolio/tour_3.jpg" alt=""> </div>
+              </div>
+              <!--Rottnest Island END-->
               
               <!-- Swan Valley START -->
               <h5 class="text-uppercase">Swan valley gourmet food & wine tour</h5>
@@ -669,53 +781,7 @@
               </div>
               <!-- Swan Valley END --> 
               
-              <!--Rottnest Island START--> 
-              <!--<h5 class="text-uppercase">Rottnest Island</h5>
-              <p class="text-muted">12.00pm – 6.00pm</p>
-              <img class="img-fluid d-block mx-auto" src="img/portfolio/rot.jpg" alt="">
-              <p style="padding-bottom: 200px;">Coach transfers will depart The Westin Perth at approx. 12noon for B-Shed, Victoria Quay Fremantle Ferry Terminal. Collect snorkel sets (optional) before boarding the Rottnest Express ferry to Rottnest Island (approx. 30mins). Upon arrival at Rottnest Island, disembark and collect hire bikes (optional) from the main jetty. Enjoy free time exploring the beauty of this picturesque island. Ride or walk to one of the 63 beaches and 23 bays located around the island or get in the water with your snorkel and explore Rottnest Island’s underwater playground. During registration you will select one of the following tour options.</p> --> 
-              
-              <!-- OPTIONAL ACTVITIES -->
-              <h5 class="text-uppercase">Optional Acitivites</h5>
-              <p style="padding-bottom: 200px;">Following the morning conference session on Wednesday 16 January, you have the option to select from the following activities or enjoy the afternoon at your leisure. Kindly note that the Westin Perth is a city hotel so there is limited seating around the pool area if you choose to spend the day relaxing at the hotel.</p>
-              
-              <!-- Tour 1 -->
-              <div class="row" style="padding-bottom: 200px;">
-                <div class="col-lg-6 text-left">
-                  <p class="text-uppercase"><strong>Option #1 – Adventure Tour</strong></p>
-                  <p>60 min Adventure Boat Tour<br>
-                    1.45pm Group 1<br>
-                    3.00pm Group 2</p>
-                  <p>Jump aboard the purpose-built, high-powered vessel for the adventure of a lifetime as the Eco Express takes you for a 60-minute journey to the island's wild side. Explore Rottnest's rugged coastline and witness the beauty of its abundant wildlife up close, including the delightful antics of the New Zealand fur seal colony at Cathedral Rocks. With our knowledgeable crew providing expert commentary along the way, this is the ultimate thrill ride for nature lovers! </p>
-                </div>
-                <div class="col-lg-6"> <img class="img-fluid d-block mx-auto" src="img/portfolio/tour_2.jpg" alt=""> </div>
-              </div>
-              
-              <!-- Tour 2 -->
-              <div class="row" style="padding-bottom: 200px;">
-                <div class="col-lg-6"> <img class="img-fluid d-block mx-auto" src="img/portfolio/tour_1.jpg" alt=""> </div>
-                <div class="col-lg-6 text-left">
-                  <p class="text-uppercase"><strong>Option #2 – Discover Tour</strong></p>
-                  <p>60 min Discover Coach Tour<br>
-                    1.45pm Group 3<br>
-                    3.00pm Group 4</p>
-                  <p>This 60-minute coach tour takes you to some of Rottnest’s most spectacular locations, where you can experience the island's diverse flora, fauna, history and culture for yourself (with insightful commentary from knowledgeable crew along the way). The Discover Rottnest Coach Tour stops at key vantage points around the island, where passengers can hop off the coach and stretch their legs as they soak up some of Rottnest's world-famous views. Chances are, while you are there, you're going to meet a Quokka or two!</p>
-                </div>
-              </div>
-              
-              <!-- Tour 3 -->
-              <div class="row" style="padding-bottom: 200px;">
-                <div class="col-lg-6 text-left">
-                  <p class="text-uppercase"><strong>Option #3 – Explorer Option</strong></p>
-                  <p>60 min Sub Sea Explorer Semi-Submersible Vessel<br>
-                    1.45pm Group 5<br>
-                    3.00pm Group 6</p>
-                  <p>Take a journey of a lifetime on the iconic coral viewing vessel, the 'Sub Sea Explorer' and venture beneath the waves of Rottnest Island to discover the amazing story of shipwrecks and the incredibly rich marine life that now inhabit them. Watch from below the waterline to spot as many fish and marine species as you can. You will probably see many species of fish, rays and perhaps spot one or two of the new tropical species that now call Rottnest home.</p>
-                  <p>Following the tours and free time, return your hire bikes and snorkel equipment to the main jetty before boarding the Rottnest Express ferry for our return to the mainland. Upon arrival at B-Shed Victoria Quay Fremantle Ferry Terminal, board coaches back to Westin Perth, arriving around 6.15pm.</p>
-                </div>
-                <div class="col-lg-6"> <img class="img-fluid d-block mx-auto" src="img/portfolio/tour_3.jpg" alt=""> </div>
-              </div>
-              <!--Rottnest Island END--> 
+               
               
               <!-- Kings Park Segway Tour Start --> 
               <img class="img-fluid d-block mx-auto" src="img/portfolio/rot.jpg" alt="">
@@ -724,7 +790,13 @@
               <p>Renowned as one of the World’s largest and most beautiful inner-city parks, Kings Park delights visitors with natural bush trails, open parklands, a stunning botanic garden and iconic views over the Perth city skyline.  The tour departs from Barrack Street Jetty, meandering through the new Elizabeth Quay waterfront precinct before ascending Mt Eliza to reach the summit of Kings Park. Explore tree-lined avenues honouring Western Australia’s fallen soldiers and visit secluded parts of the park where native birds and animals are your travelling companions . The park’s botanic garden is one of the best locations for wildflowers in Spring and iconic views over the Swan River year round. </p>
               <p>Return to Barrack Street Jetty where you will board transfer back to the hotel. Tour duration is approximately 90 minutes (plus transfers). </p>
               <p  style="padding-bottom: 200px;"><strong>Note: maximum weight is 188kg and tour is not suitable for pregnant women.</strong></p>
-              <button class="btn btn-none btn-xl" data-dismiss="modal" type="button" align="center"> <span style="text-align:center;" aria-hidden="true">X</span> </button>
+              <!-- Kings Park Segway Tour END -->    
+              
+                  <div class="close-modal-down" data-dismiss="modal">
+        			<div class="lr">
+          			<div class="rl"></div>
+        			</div>
+      		  </div>
             </div>
           </div>
         </div>
@@ -757,38 +829,38 @@
               <h5 class="text-uppercase" style="padding-bottom: 100px;">Brookfield Place</h5>
               <br>
               <div class="row" style="padding-bottom: 200px;">
-                <div class="col-lg-6"> <img class="img-fluid d-block mx-auto" src="img/portfolio/thumbnail_resto.jpg" alt=""> </div>
+                <div class="col-lg-6"> <img class="img-fluid d-block mx-auto" src="img/portfolio/restaurant/thumbnail/churchill_bar_thumb.jpg" alt=""> </div>
                 <div class="col-lg-6 text-left">
                   <p class="text-uppercase"><strong>Churchill Bar & Restaurant</strong></p>
                   <p>133 Georges Terrace, Perth<br>
                     Ph:  0422 927 932</p>
-                  <p>Sit back and bask in the rich historical architecture of the WA Trustee building positioned between the iconic St Georges Terrace and Brookfield Place in the heart of the CBD. Churchill Bar and Restaurant is a fully licenced bar and restaurant located over two levels offering Breakfast lunch and dinner with a modern Australian menu with an Asian flair.</p>
-                  <p>Distance from Westin Perth:<br>
+                  <p>Sit back and bask in the rich historical architecture of the WA Trustee building positioned between the iconic St Georges Terrace and Brookfield Place in the heart of the CBD. Churchill Bar and Restaurant is a fully licenced bar and restaurant located over two levels offering breakfast lunch and dinner with a modern Australian menu with an Asian flair.</p>
+                  <p><strong>Distance from Westin Perth:</strong><br>
                     Walking – 12-minute walk (1.0km)<br>
                     Driving – 4-minute drive (1.0km) </p>
                 </div>
               </div>
               <div class="row" style="padding-bottom: 200px;">
-                <div class="col-lg-6"> <img class="img-fluid d-block mx-auto" src="img/portfolio/thumbnail_resto.jpg" alt=""> </div>
+                <div class="col-lg-6"> <img class="img-fluid d-block mx-auto" src="img/portfolio/restaurant/thumbnail/gazette_thumb.jpg" alt=""> </div>
                 <div class="col-lg-6 text-left">
                   <p class="text-uppercase"><strong>Gazette</strong></p>
                   <p>125 St Georges Terrace, Perth<br>
                     Ph: 08 6282 0000</p>
                   <p>Gazette Osteria & Bar is located on the ground floor of Print hall, Brookfield Place. Gazette strikes a balance between elegance and simplicity with a splash of romance. The Osteria, fitted with marble bar tops for casual dining and Italian leather booths for more intimate occasions is bustling from midday until late. The menu celebrates the seasons through an a la carte menu featuring traditional Roman recipes executed with modern flair. Regional produce is celebrated, while hand crafted pizzas and pastas round out the menu – just as you’d expect from this playful twist on classic Italian dining. </p>
-                  <p>Distance from Westin Perth:<br>
+                  <p><strong>Distance from Westin Perth:</strong><br>
                     Walking – 12-minute walk (1.0km)<br>
                     Driving – 4-minute drive (1.0km) </p>
                 </div>
               </div>
               <div class="row" style="padding-bottom: 200px;">
-                <div class="col-lg-6"> <img class="img-fluid d-block mx-auto" src="img/portfolio/thumbnail_resto.jpg" alt=""> </div>
+                <div class="col-lg-6"> <img class="img-fluid d-block mx-auto" src="img/portfolio/restaurant/thumbnail/Apple_Daily_bar_thumb.jpg" alt=""> </div>
                 <div class="col-lg-6 text-left">
                   <p class="text-uppercase"><strong>The Apple Daily Bar & Eating House</strong></p>
                   <p>Print Hall – Level 1<br>
                     125 St Georges Terrace, Perth<br>
                     Ph: 08 6282 0088</p>
                   <p>Named after Hong Kong’s popular daily newspaper, Apple Daily serves up exotic Asian street food. The menu has been designed for sharing with a selection of snacks, large plates, sides and desserts. The beverage menu features beers, wines, sparking and spirits from all over the world, including Taiwanese whiskey, sake and house-made liquor. </p>
-                  <p>Distance from Westin Perth:<br>
+                  <p><strong>Distance from Westin Perth:</strong><br>
                     Walking – 12-minute walk (900m)<br>
                     Driving – 4-minute drive (900m) </p>
                 </div>
@@ -800,40 +872,40 @@
               <h5 class="text-uppercase" style="padding-bottom: 100px;">Yagan Square</h5>
               <br>
               <div class="row" style="padding-bottom: 200px;">
-                <div class="col-lg-6"> <img class="img-fluid d-block mx-auto" src="img/portfolio/thumbnail_resto.jpg" alt=""> </div>
+                <div class="col-lg-6"> <img class="img-fluid d-block mx-auto" src="img/portfolio/restaurant/thumbnail/shy_john.jpg" alt=""> </div>
                 <div class="col-lg-6 text-left">
                   <p class="text-uppercase"><strong>Shy John Brewery and Yum Cha</strong></p>
                   <p>Horseshoe Lane, Roe street side, <br>
                     Yagan Square, Perth<br>
                     E: info@shyjohn.com.au</p>
                   <p>Modern dim sum roasting house meets boutique craft beer brewery at Shy John. Savour authentic and fusion dim sum and Cantonese dishes featuring high quality seasonal ingredients.</p>
-                  <p>Distance from Westin Perth:<br>
+                  <p><strong>Distance from Westin Perth:</strong><br>
                     Walking – 14-minute walk (1.1km)<br>
                     Driving – 8-minute drive (1.6km)</p>
                 </div>
               </div>
               <div class="row" style="padding-bottom: 200px;">
-                <div class="col-lg-6"> <img class="img-fluid d-block mx-auto" src="img/portfolio/thumbnail_resto.jpg" alt=""> </div>
+                <div class="col-lg-6"> <img class="img-fluid d-block mx-auto" src="img/portfolio/restaurant/thumbnail/big_els_thumb.jpg" alt=""> </div>
                 <div class="col-lg-6 text-left">
                   <p class="text-uppercase"><strong>Big El’s X The WKND</strong></p>
                   <p>Market Hall<br>
                     Yagan Square, Cnr Wellington St & William St, Perth<br>
                     Ph: 0412 266 451</p>
                   <p>Big El’s X The WKND Perth is all about good vibes, good drinks and great food. Specialising in Latin American fusion, you can expect to find a unique and creative menu coupled with a range of signature cocktails and South American beer and wine. Located in Yagan Square in the heart of the Perth CBD, Big El’s X The WKND is one of the most relaxed and chilled spots in town to sit back, feast on delicious fare and while the day or evening away. Bookings are essential.</p>
-                  <p>Distance from Westin Perth:<br>
+                  <p><strong>Distance from Westin Perth:</strong><br>
                     Walking – 13-minute walk (1.1km)<br>
                     Driving – 6-minute drive (1.5km) </p>
                 </div>
               </div>
               <div class="row" style="padding-bottom: 200px;">
-                <div class="col-lg-6"> <img class="img-fluid d-block mx-auto" src="img/portfolio/thumbnail_resto.jpg" alt=""> </div>
+                <div class="col-lg-6"> <img class="img-fluid d-block mx-auto" src="img/portfolio/restaurant/thumbnail/street_eats-Eatery_thumb.jpg" alt=""> </div>
                 <div class="col-lg-6 text-left">
                   <p class="text-uppercase"><strong>Street Eats Eatery</strong></p>
                   <p>Horseshoe Lane, Roe street side, <br>
                     Yagan Square, Perth<br>
                     Ph: 0427 208 754</p>
                   <p>Street Eats Eatery is culmination of great experiences and a love for authentic street food. At Street Eats, you will be transported to Time Square in New York, the bustling night markets in Taiwan and the Shibuya intersection in Tokyo with their authentic food and ambiance. Street Eats is the place for you to share good times and great food with your friends and ‘be introduced to the world.’</p>
-                  <p>Distance from Westin Perth:<br>
+                  <p><strong>Distance from Westin Perth:</strong><br>
                     Walking – 15-minute walk (1.2km)<br>
                     Driving – 7-minute drive (1.7km) </p>
                 </div>
@@ -846,28 +918,39 @@
                 Look for the Bell Tower to find Barrack Street Jetty. </p>
               <br>
               <div class="row" style="padding-bottom: 200px;">
-                <div class="col-lg-6"> <img class="img-fluid d-block mx-auto" src="img/portfolio/thumbnail_resto.jpg" alt=""> </div>
+                <div class="col-lg-6"> <img class="img-fluid d-block mx-auto" src="img/portfolio/restaurant/thumbnail/isle-of-voyage_thumb.jpg" alt=""> </div>
                 <div class="col-lg-6 text-left">
                   <p class="text-uppercase"><strong>Isle of Voyage </strong></p>
                   <p>The Island, Elizabeth Quay <br>
                     Ph: (08) 9243 2711</p>
                   <p>Located on the Island at Elizabeth Quay, the Isle of Voyage combines a restaurant, bar, outdoor dining space and general store. High ceilings, timber floors and bay windows set the scene inside the light-filled island oasis where diners can enjoy early morning coffees, lunch or dinner and cocktails. The impressive city views continue throughout the entire venue with the use of clever indoor-outdoor seating areas where you can admire the al-fresco pizza oven.</p>
-                  <p>Distance from Westin Perth:<br>
-                    sw
+                  <p><strong>Distance from Westin Perth:</strong><br>
                     Walking – 13-minute walk (1.1km)<br>
                     Driving – 5-minute drive (1.5km) </p>
                 </div>
               </div>
               <div class="row" style="padding-bottom: 200px;">
-                <div class="col-lg-6"> <img class="img-fluid d-block mx-auto" src="img/portfolio/thumbnail_resto.jpg" alt=""> </div>
+                <div class="col-lg-6"> <img class="img-fluid d-block mx-auto" src="img/portfolio/restaurant/thumbnail/Lucky_Shaq_thumb.jpg" alt=""> </div>
                 <div class="col-lg-6 text-left">
                   <p class="text-uppercase"><strong>The Lucky Shag Waterfront Bar</strong></p>
                   <p>Barrack St Jetty, Riverside Dr, Perth<br>
                     Ph: 08 9221 6011</p>
                   <p>Relax and enjoy Perth’s ultimate waterfront venue. Featuring a great selection of share food, a large selection of seafood, as you’d expect from a waterfront venue, as well as your ‘pub grub’ favourites, there is something for everyone on The Lucky Shag menu. Located a short 5-minute walk from the bustle of Perth’s CBD, this fantastic waterfront venue boasts spectacular vistas of the beautiful Swan River and Perth city skyline. Please note The Lucky Shag bar does not take table bookings for less than 10 people.</p>
-                  <p>Distance from Westin Perth:<br>
+                  <p><strong>Distance from Westin Perth:</strong><br>
                     Walking – 12-minute walk (950m)<br>
                     Driving – 4-minute drive (1.3km) </p>
+                </div>
+              </div>
+              <div class="row" style="padding-bottom: 200px;">
+                <div class="col-lg-6"> <img class="img-fluid d-block mx-auto" src="img/portfolio/restaurant/thumbnail/reveley_thumb.jpg" alt=""> </div>
+                <div class="col-lg-6 text-left">
+                  <p class="text-uppercase"><strong>The Reveley</strong></p>
+                  <p>Eastern Promenade, Elizabeth Quay<br>
+                    Ph: (08) 6314 1350</p>
+                  <p>Located on the water’s edge, The Reveley offers three levels of delicious food, creative cocktails and stunning 180-degree views across the Swan River and Perth City. The ground floor bistro welcomes you to a more casual atmosphere as compared to the second level that boasts a more intimate dining room with incredible food and an impressive drinks list. Enjoy seasonal cocktail creations on the third level Henry’s Rooftop Bar with stunning views across Elizabeth Quay. Please note that all bookings are for the first-floor dining room only, Henry's Rooftop Bar & the ground floor bistro do not accept reservations.</p>
+                  <p><strong>Distance from Westin Perth:</strong><br>
+                    Walking – 11-minute walk (850m)<br>
+                    Driving – 4-minute drive (1.4km) </p>
                 </div>
               </div>
               <!-- Elizabeth Quay END--> 
@@ -875,44 +958,48 @@
               <!-- Fremantle START-->
               <h5 class="text-uppercase" style="padding-bottom: 100px;">Fremantle</h5>
               <div class="row" style="padding-bottom: 200px;">
-                <div class="col-lg-6"> <img class="img-fluid d-block mx-auto" src="img/portfolio/thumbnail_resto.jpg" alt=""> </div>
+                <div class="col-lg-6"> <img class="img-fluid d-block mx-auto" src="img/portfolio/restaurant/thumbnail/little_creature_thumb.jpg" alt=""> </div>
                 <div class="col-lg-6 text-left">
                   <p class="text-uppercase"><strong>Little Creatures</strong></p>
                   <p>40 Mews Rd, Fremantle <br>
                     Ph: 08 6215 1000</p>
                   <p>The venue was once used as a crocodile farm and you can still see some of the original infrastructure. The beer comes direct from serving tanks pumped straight from the brewery, so it doesn’t get any fresher. An open kitchen is on show, just as the brewery is open for all to see, and produces great, fresh food that goes perfectly with beer, such as pizzas straight from the wood fired over and the famous frites.</p>
-                  <p>Distance from Westin Perth:<br>
+                  <p><strong>Distance from Westin Perth:</strong><br>
                     Walking – not within walking distance <br>
                     Driving – 31-minute drive (23.4km) </p>
                 </div>
               </div>
               <div class="row" style="padding-bottom: 200px;">
-                <div class="col-lg-6"> <img class="img-fluid d-block mx-auto" src="img/portfolio/thumbnail_resto.jpg" alt=""> </div>
+                <div class="col-lg-6"> <img class="img-fluid d-block mx-auto" src="img/portfolio/restaurant/thumbnail/bathers_beach_thumb.jpg" alt=""> </div>
                 <div class="col-lg-6 text-left">
                   <p class="text-uppercase"><strong>Bathers Beach House</strong></p>
                   <p>47 Mews Rd, Fremantle<br>
                     Ph: 08 9335 2911</p>
                   <p>Perth’s only absolute beachfront restaurant and bar located three steps from the beautiful white sands of Bathers Beach in Fremantle. The restaurant specialises in seafood and starters designed to share. With an extensive craft beer menu this is the perfect spot for a casual meal with an impressive view. </p>
-                  <p>Distance from Westin Perth:<br>
+                  <p><strong>Distance from Westin Perth:</strong><br>
                     Walking – not within walking distance <br>
                     Driving – 30-minute drive (23.7km)</p>
                 </div>
               </div>
               <div class="row" style="padding-bottom: 200px;">
-                <div class="col-lg-6"> <img class="img-fluid d-block mx-auto" src="img/portfolio/thumbnail_resto.jpg" alt=""> </div>
+                <div class="col-lg-6"> <img class="img-fluid d-block mx-auto" src="img/portfolio/restaurant/thumbnail/charchar_resto_thumb.jpg" alt=""> </div>
                 <div class="col-lg-6 text-left">
                   <p class="text-uppercase"><strong>Char Char Restaurant</strong></p>
                   <p>44b Mews Rd, Fremantle<br>
                     Ph: 08 9335 7666</p>
                   <p>Char Char Restaurant & Bar is an award-winning restaurant, overlooking the water in Fishing Boat Harbour in Fremantle. The eatery offers pristine views of the harbour and the luxurious boasts moored by the pier. Specialising in the best local char-grilled prime beef, with steak cuts specially selected from some of the best local farms. They also have a range of delicious and fresh seafood on offer. </p>
-                  <p>Distance from Westin Perth:<br>
+                  <p><strong>Distance from Westin Perth:</strong><br>
                     Walking – not within walking distance <br>
                     Driving – 31-minute drive (23.7km)</p>
                 </div>
               </div>
               <!-- Fremantle END-->
               
-              <button class="btn btn-none btn-xl" data-dismiss="modal" type="button" align="center"> <span style="text-align:center;" aria-hidden="true">X</span> </button>
+                 <div class="close-modal-down" data-dismiss="modal">
+        			<div class="lr">
+          			<div class="rl"></div>
+        			</div>
+      		  </div>
             </div>
           </div>
         </div>
@@ -950,7 +1037,11 @@
               <div class="row">
                 <div class="col-lg-12"> <img class="img-fluid d-block mx-auto" style="padding-bottom: 200px;" src="img/portfolio/perth beach.jpeg" alt=""> </div>
               </div>
-              <button class="btn btn-none btn-xl" data-dismiss="modal" type="button" align="center"> <span style="text-align:center;" aria-hidden="true">X</span> </button>
+              <div class="close-modal-down" data-dismiss="modal">
+        			<div class="lr">
+          			<div class="rl"></div>
+        			</div>
+      		  </div>
             </div>
           </div>
         </div>
@@ -1010,7 +1101,11 @@
               <p class="text-left" style="padding-bottom: 200px;">Checked Baggage 1 piece up to 23kg <br>
                 Carry-on baggage 1 carry-on bag plus one small item (e.g. handbag or thin laptop) total dimensions 118cm up to 7kg<br>
                 For further information please refer to <a href="https://www.airnewzealand.com/" target="_blank"><strong>www.airnewzealand.com </strong></a> </p>
-              <button class="btn btn-none btn-xl" data-dismiss="modal" type="button" align="center"> <span style="text-align:center;" aria-hidden="true">X</span> </button>
+                  <div class="close-modal-down" data-dismiss="modal">
+        			<div class="lr">
+          			<div class="rl"></div>
+        			</div>
+      		  </div>
             </div>
           </div>
         </div>
@@ -1200,7 +1295,11 @@
                   <br>
                 </div>
               </div>
-              <button class="btn btn-none btn-xl" data-dismiss="modal" type="button" align="center"> <span style="text-align:center;" aria-hidden="true">X</span> </button>
+                  <div class="close-modal-down" data-dismiss="modal">
+        			<div class="lr">
+          			<div class="rl"></div>
+        			</div>
+      		  </div>
             </div>
           </div>
         </div>
@@ -1228,11 +1327,15 @@
                 Caroline Blaxell<br>
                 Cheryle Riley<br>
                 Natalie Hackett<br>
-                Advance 2019 Travel Team<br>
+                Advance 2019 Concierge<br>
                 <a style="color:white;" href="mailto:advance2019@destination.com.au"><strong>advance2019@destination.com.au</strong></a><br>
               </p>
             </div>
-            <button class="btn btn-none-contact btn-xl" data-dismiss="modal" type="button" align="center"> <span style="text-align:center; color: #fff; background-color: #000;" aria-hidden="true">X</span> </button>
+                <div class="close-modal-down" data-dismiss="modal">
+        			<div class="lr" style="background-color: #fff">
+          			<div class="rl" style="background-color: #fff"></div>
+        			</div>
+      		  </div>
           </div>
         </div>
       </div>
